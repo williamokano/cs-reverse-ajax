@@ -39,3 +39,4 @@ Thumbs.db
 # Ignored Folders #
 ###################
 bin/
+obj/
