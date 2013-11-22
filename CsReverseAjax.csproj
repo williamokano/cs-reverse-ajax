@@ -58,7 +58,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
-    <Content Include="Receiver.aspx" />
+    <Content Include="Receive.aspx" />
+    <Content Include="Send.aspx" />
+    <Content Include="Sender.asmx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -72,16 +74,25 @@
     </Compile>
     <Compile Include="Message.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Receiver.aspx.cs">
-      <DependentUpon>Receiver.aspx</DependentUpon>
+    <Compile Include="Receive.aspx.cs">
+      <DependentUpon>Receive.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Receiver.aspx.designer.cs">
-      <DependentUpon>Receiver.aspx</DependentUpon>
+    <Compile Include="Receive.aspx.designer.cs">
+      <DependentUpon>Receive.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Sender.cs">
+    <Compile Include="Send.aspx.cs">
+      <DependentUpon>Send.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="Send.aspx.designer.cs">
+      <DependentUpon>Send.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sender.asmx.cs">
+      <DependentUpon>Sender.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Sender.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Web.Debug.config">

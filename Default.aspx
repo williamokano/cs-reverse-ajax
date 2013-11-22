@@ -10,8 +10,8 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <a target="_blank" href="Sender.aspx">Sender</a><br /><br />
-        <a target="_blank" href="Receiver.aspx">Receiver</a>
+        <a target="_blank" href="Send.aspx">Send</a><br /><br />
+        <a target="_blank" href="Receive.aspx">Receive</a>
     </div>
     </form>
 </body>
