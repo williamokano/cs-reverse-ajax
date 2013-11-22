@@ -1,5 +1,1 @@
-D:\Projetos\Pessoal\CsReverseAjax\cs-reverse-ajax\bin\CsReverseAjax.dll
-D:\Projetos\Pessoal\CsReverseAjax\cs-reverse-ajax\bin\CsReverseAjax.pdb
 D:\Projetos\Pessoal\CsReverseAjax\cs-reverse-ajax\obj\Debug\CsReverseAjax.csprojResolveAssemblyReference.cache
-D:\Projetos\Pessoal\CsReverseAjax\cs-reverse-ajax\obj\Debug\CsReverseAjax.dll
-D:\Projetos\Pessoal\CsReverseAjax\cs-reverse-ajax\obj\Debug\CsReverseAjax.pdb

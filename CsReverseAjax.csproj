@@ -59,7 +59,6 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="Receiver.aspx" />
-    <Content Include="Sender.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -79,13 +78,6 @@
     </Compile>
     <Compile Include="Receiver.aspx.designer.cs">
       <DependentUpon>Receiver.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Sender.aspx.cs">
-      <DependentUpon>Sender.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Sender.aspx.designer.cs">
-      <DependentUpon>Sender.aspx</DependentUpon>
     </Compile>
     <Compile Include="Sender.cs">
       <SubType>ASPXCodeBehind</SubType>
